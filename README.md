@@ -13,7 +13,7 @@ STYLIGHT-Test
 
 #Benefits of NetworkHelper
 
-<p>Here is a brief list of benefits of using NetworkHelper in this project:
+Here is a brief list of benefits of using NetworkHelper in this project:
 - Requests and their data are cached with the help of CoreData
 - Data fetching and networking operations are performed on background threads
 - Greater control on how long to cache data, therefore minimizing the number of API calls</p>
