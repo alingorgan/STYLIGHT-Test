@@ -3,7 +3,7 @@ STYLIGHT-Test
 
 <p>A simple rest client demo for STYLIGHT's web api</p>
 
-![screenshot](https://raw.github.com/alingorgan/RequestCacher/master/SLAPITest/requestcacher.png)
+![screenshot](https://raw.github.com/alingorgan/STYLIGHT-Test/master/SLAPITest/screenshot.png)
 
 # Description
 
