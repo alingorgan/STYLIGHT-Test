@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "NetworkHelper/NHRequest.h"
-#import "NetworkHelper/RequestConductor.h"
+#import "NHRequest.h"
+#import "RequestConductor.h"
 
 @interface AsyncImageView : UIImageView
 

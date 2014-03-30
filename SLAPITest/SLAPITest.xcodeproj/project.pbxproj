@@ -18,7 +18,7 @@
 		6E23905718E822B100C98A56 /* AGProviderFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E23905618E822B100C98A56 /* AGProviderFilter.m */; };
 		6E23905D18E82F2600C98A56 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E23905C18E82F2600C98A56 /* Localizable.strings */; };
 		6E23906018E8316B00C98A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E23905E18E8316B00C98A56 /* Main.storyboard */; };
-		6E23906F18E8349A00C98A56 /* libNetworkHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E23906B18E8349A00C98A56 /* libNetworkHelper.a */; };
+		6E2390AD18E8461600C98A56 /* libNetworkHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2390AB18E845AF00C98A56 /* libNetworkHelper.a */; };
 		6E2CC28D18E37B7C00C1CF7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2CC28C18E37B7C00C1CF7A /* Foundation.framework */; };
 		6E2CC28F18E37B7C00C1CF7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2CC28E18E37B7C00C1CF7A /* CoreGraphics.framework */; };
 		6E2CC29118E37B7C00C1CF7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2CC29018E37B7C00C1CF7A /* UIKit.framework */; };
@@ -34,7 +34,7 @@
 		6E2CC2B818E37B7C00C1CF7A /* SLAPITestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2CC2B718E37B7C00C1CF7A /* SLAPITestTests.m */; };
 		6E2CC2CC18E37E7F00C1CF7A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2CC2CB18E37E7F00C1CF7A /* CoreData.framework */; };
 		6E2CC2D018E37FF100C1CF7A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2CC2CF18E37FF100C1CF7A /* SystemConfiguration.framework */; };
-		6E2CC2D318E3801700C1CF7A /* NHRequestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E2CC2D118E3801700C1CF7A /* NHRequestModel.xcdatamodeld */; };
+		6EAB464618E85C97005CCC89 /* NHRequestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB464418E85C97005CCC89 /* NHRequestModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +68,14 @@
 		6E23905618E822B100C98A56 /* AGProviderFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGProviderFilter.m; sourceTree = "<group>"; };
 		6E23905C18E82F2600C98A56 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		6E23905F18E8316B00C98A56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6E23906B18E8349A00C98A56 /* libNetworkHelper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNetworkHelper.a; sourceTree = "<group>"; };
+		6E2390AB18E845AF00C98A56 /* libNetworkHelper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNetworkHelper.a; sourceTree = "<group>"; };
+		6E2390AE18E8467D00C98A56 /* NetworkHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkHelper.h; sourceTree = "<group>"; };
+		6E2390AF18E8467D00C98A56 /* NHRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHRequest.h; sourceTree = "<group>"; };
+		6E2390B018E8467D00C98A56 /* NHRequestCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHRequestCache.h; sourceTree = "<group>"; };
+		6E2390B118E8467D00C98A56 /* NHRequestCache+Manage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NHRequestCache+Manage.h"; sourceTree = "<group>"; };
+		6E2390B218E8467D00C98A56 /* NSDate+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
+		6E2390B318E8467D00C98A56 /* RequestConductor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestConductor.h; sourceTree = "<group>"; };
+		6E2390B418E8467D00C98A56 /* ResponseCart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponseCart.h; sourceTree = "<group>"; };
 		6E2CC28918E37B7C00C1CF7A /* SLAPITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLAPITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E2CC28C18E37B7C00C1CF7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6E2CC28E18E37B7C00C1CF7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -89,7 +96,7 @@
 		6E2CC2B718E37B7C00C1CF7A /* SLAPITestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLAPITestTests.m; sourceTree = "<group>"; };
 		6E2CC2CB18E37E7F00C1CF7A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		6E2CC2CF18E37FF100C1CF7A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		6E2CC2D218E3801700C1CF7A /* NHRequestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NHRequestModel.xcdatamodel; sourceTree = "<group>"; };
+		6EAB464518E85C97005CCC89 /* NHRequestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NHRequestModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +104,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E2390AD18E8461600C98A56 /* libNetworkHelper.a in Frameworks */,
 				6E2CC2D018E37FF100C1CF7A /* SystemConfiguration.framework in Frameworks */,
 				6E2CC2CC18E37E7F00C1CF7A /* CoreData.framework in Frameworks */,
 				6E2CC28F18E37B7C00C1CF7A /* CoreGraphics.framework in Frameworks */,
 				6E2CC29118E37B7C00C1CF7A /* UIKit.framework in Frameworks */,
-				6E23906F18E8349A00C98A56 /* libNetworkHelper.a in Frameworks */,
 				6E2CC28D18E37B7C00C1CF7A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,17 +201,25 @@
 			path = DataProviders;
 			sourceTree = "<group>";
 		};
-		6E23906118E8349A00C98A56 /* NetworkHelper */ = {
+		6E2390A118E845AF00C98A56 /* NetworkHelper */ = {
 			isa = PBXGroup;
 			children = (
-				6E23906B18E8349A00C98A56 /* libNetworkHelper.a */,
+				6E2390AE18E8467D00C98A56 /* NetworkHelper.h */,
+				6E2390AF18E8467D00C98A56 /* NHRequest.h */,
+				6E2390B018E8467D00C98A56 /* NHRequestCache.h */,
+				6E2390B118E8467D00C98A56 /* NHRequestCache+Manage.h */,
+				6E2390B218E8467D00C98A56 /* NSDate+Utils.h */,
+				6E2390B318E8467D00C98A56 /* RequestConductor.h */,
+				6E2390B418E8467D00C98A56 /* ResponseCart.h */,
+				6E2390AB18E845AF00C98A56 /* libNetworkHelper.a */,
 			);
 			path = NetworkHelper;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
 		6E2CC28018E37B7C00C1CF7A = {
 			isa = PBXGroup;
 			children = (
+				6E2390A118E845AF00C98A56 /* NetworkHelper */,
 				6E2CC29218E37B7C00C1CF7A /* SLAPITest */,
 				6E2CC2B118E37B7C00C1CF7A /* SLAPITestTests */,
 				6E2CC28B18E37B7C00C1CF7A /* Frameworks */,
@@ -237,7 +252,6 @@
 		6E2CC29218E37B7C00C1CF7A /* SLAPITest */ = {
 			isa = PBXGroup;
 			children = (
-				6E23906118E8349A00C98A56 /* NetworkHelper */,
 				6E23905E18E8316B00C98A56 /* Main.storyboard */,
 				6E2CC29B18E37B7C00C1CF7A /* AGAppDelegate.h */,
 				6E2CC29C18E37B7C00C1CF7A /* AGAppDelegate.m */,
@@ -254,7 +268,7 @@
 		6E2CC29318E37B7C00C1CF7A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6E2CC2D118E3801700C1CF7A /* NHRequestModel.xcdatamodeld */,
+				6EAB464418E85C97005CCC89 /* NHRequestModel.xcdatamodeld */,
 				6E2CC29418E37B7C00C1CF7A /* SLAPITest-Info.plist */,
 				6E2CC29518E37B7C00C1CF7A /* InfoPlist.strings */,
 				6E2CC29818E37B7C00C1CF7A /* main.m */,
@@ -384,13 +398,13 @@
 				6BFA9D9E18E5CE4E00E9E86F /* AGResultsProvider.m in Sources */,
 				6E21E59A18E6C87200816074 /* AsyncImageView.m in Sources */,
 				6E2CC29D18E37B7C00C1CF7A /* AGAppDelegate.m in Sources */,
+				6EAB464618E85C97005CCC89 /* NHRequestModel.xcdatamodeld in Sources */,
 				6E2CC2A318E37B7C00C1CF7A /* AGViewController.m in Sources */,
 				6BFA9DA918E5E41900E9E86F /* AGResultsParser.m in Sources */,
 				6BFA9DA618E5D5DE00E9E86F /* AGProduct.m in Sources */,
 				6E2CC29918E37B7C00C1CF7A /* main.m in Sources */,
 				6E23904D18E81FCD00C98A56 /* AGProduct+Parse.m in Sources */,
 				6BFA9DA318E5D5CA00E9E86F /* AGBoard.m in Sources */,
-				6E2CC2D318E3801700C1CF7A /* NHRequestModel.xcdatamodeld in Sources */,
 				6E23905718E822B100C98A56 /* AGProviderFilter.m in Sources */,
 				6E23904818E81F5100C98A56 /* AGBoard+Parse.m in Sources */,
 				6E21E5A718E6E3AE00816074 /* UIImage+Utils.m in Sources */,
@@ -626,14 +640,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		6E2CC2D118E3801700C1CF7A /* NHRequestModel.xcdatamodeld */ = {
+		6EAB464418E85C97005CCC89 /* NHRequestModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				6E2CC2D218E3801700C1CF7A /* NHRequestModel.xcdatamodel */,
+				6EAB464518E85C97005CCC89 /* NHRequestModel.xcdatamodel */,
 			);
-			currentVersion = 6E2CC2D218E3801700C1CF7A /* NHRequestModel.xcdatamodel */;
-			name = NHRequestModel.xcdatamodeld;
-			path = ../NetworkHelper/NetworkHelper/NHRequestModel.xcdatamodeld;
+			currentVersion = 6EAB464518E85C97005CCC89 /* NHRequestModel.xcdatamodel */;
+			path = NHRequestModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

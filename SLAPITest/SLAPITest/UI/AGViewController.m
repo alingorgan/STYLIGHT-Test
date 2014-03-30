@@ -7,10 +7,10 @@
 //
 
 #import "AGViewController.h"
-#import "NetworkHelper/NetworkHelper.h"
-#import "NetworkHelper/NHRequest.h"
-#import "NetworkHelper/RequestConductor.h"
-#import "NetworkHelper/ResponseCart.h"
+#import "NetworkHelper.h"
+#import "NHRequest.h"
+#import "RequestConductor.h"
+#import "ResponseCart.h"
 
 #import "AGResultsProvider.h"
 #import "AGBoard.h"

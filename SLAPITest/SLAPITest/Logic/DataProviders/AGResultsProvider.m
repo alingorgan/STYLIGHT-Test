@@ -8,11 +8,11 @@
 
 #import "AGResultsProvider.h"
 
-#import "NetworkHelper/NetworkHelper.h"
-#import "NetworkHelper/NHRequest.h"
-#import "NetworkHelper/RequestConductor.h"
-#import "NetworkHelper/ResponseCart.h"
-#import "NetworkHelper/RequestConductor.h"
+#import "NHRequest.h"
+#import "NetworkHelper.h"
+#import "RequestConductor.h"
+#import "ResponseCart.h"
+#import "RequestConductor.h"
 
 #import "AGResultsParser.h"
 
