@@ -19,3 +19,7 @@ Here is a brief list of benefits of using NetworkHelper in this project:
 - Greater control on how long to cache data, therefore minimizing the number of API calls</p>
 - Check for expired data and refetch
 - Ability to display old data, as new data is still being refetched, therefore preventing blank screens.
+
+#Note
+
+The network helper library has been build specifically for the iOS simulator. Therefore, you won't be able to build and run this on real iOS devices.
