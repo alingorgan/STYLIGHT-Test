@@ -7,7 +7,7 @@ STYLIGHT-Test
 
 # Description
 
-<p>This project is a demo and it's communicating with the STYLIGHT web api to deliver content, optimized for iOS devices.</p>
+<p>This project is a demo and it's communicating with the STYLIGHT web api to deliver content, optimised for iOS devices.</p>
 
 <p>This project uses an updated version of the RequestCacher, now known as NetworkHelper. NetworkHelper is still under development and will replace RequestCacher as soon as it's ready.</p>
 
