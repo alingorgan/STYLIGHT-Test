@@ -22,4 +22,4 @@ Here is a brief list of benefits of using NetworkHelper in this project:
 
 #Note
 
-The network helper library has been build specifically for the iOS simulator. Therefore, you won't be able to build and run this on real iOS devices.
+The NetworkHelper library has been build specifically for the iOS simulator. Therefore, you won't be able to build and run this on real iOS devices.
